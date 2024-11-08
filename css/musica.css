@@ -1,0 +1,135 @@
+body {
+    background-color: #fff3db;
+}
+
+header {
+    background-color: rgb(48, 189, 255);
+    position: relative;
+    height: 140px;
+}
+
+nav {
+    position: absolute;
+    right: 25px;
+    top: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(15, 33, 192);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 35px;
+    left: 10px;
+    top: 25px;
+}
+
+h1:hover{
+    transform: scale(0.8);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.texto_card_justificado {
+    text-align: justify;
+}
+
+.cardA {
+    background-color: rgb(245, 232, 57);
+    width: 350px;
+    border: 3px solid rgb(184, 175, 51);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cardB {
+    background-color: white;
+    width: 350px;
+    border: 3px solid rgb(212, 212, 212);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cardC {
+    background-color: #1eb1f5;
+    width: 350px;
+    border: 3px solid #228ab9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.colorA {
+    color: #f5e839;
+}
+
+.colorB {
+    color: #ffffff;
+}
+
+.colorC {
+    color: #1eb1f5;
+}
+
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+footer {
+    background-color: rgb(48, 189, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+footer li {
+    display: inline;
+    margin: 5px;
+}
+
+.contenedor_padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor_limite{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:840px) {
+    h1{
+        font-size: 30px;
+    }
+
+    nav{
+        position: absolute;
+        left:5px;
+        top:80px;
+    }
+}
